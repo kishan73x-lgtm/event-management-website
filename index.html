@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Events | Event Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav-container">
+            <h1 class="logo">Elite Events</h1>
+
+            <nav class="nav" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>Creating Unforgettable Experiences</h2>
+            <p>Professional event management for corporate, weddings, and private events.</p>
+            <button class="btn">Book Now</button>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+
+            <div class="services-grid">
+                <article class="card">
+                    <div class="card-image">
+                        <img src="./images/corporate event.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Corporate Events</h3>
+                        <p>Conferences, product launches, seminars with professional execution.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="./images/wedding planning.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                         <h3>Wedding Planning</h3>
+                         <p>Full wedding planning with elegant decoration and coordination.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="./images/private-parties.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                         <h3>Private Parties</h3>
+                         <p>Birthdays, anniversaries and custom celebrations made special.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events section" id="events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-image">
+                        <img src="./images/bussiness-submit.jpg" alt="">
+                    </div>
+                    <div class="event-content">
+                        <h3>Business Summit 2026</h3>
+                        <p>Date: March 12, 2026</p>
+                        <button class="btn small">Register</button>
+                    </div>       
+                </article>
+
+                 <article class="event-card">
+                    <div class="event-image">
+                        <img src="./images/lextury-wedding.jpg" alt="">
+                    </div>
+                    <div class="event-content">
+                        <h3>Luxury Wedding Expo</h3>
+                        <p>Date: April 5, 2026</p>
+                        <button class="btn small">Register</button>
+                    </div>       
+                </article>
+
+                 <article class="event-card">
+                    <div class="event-image">
+                        <img src="./images/music&foodfest.jpg" alt="">
+                    </div>
+                    <div class="event-content">
+                        <h3>Music & Food Fest</h3>
+                        <p>Date: May 20, 2026</p>
+                        <button class="btn small">Register</button>
+                    </div>       
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="container about-grid">
+            <div>
+                <h2>About Us</h2>
+                <p>
+                    Elite Events is a professional event management company delivering
+                    high-quality event solutions with creativity and precision.
+                    We are a professional event management team dedicated to planning 
+                    and executing seamless corporate events, weddings, and private celebrations.
+                     From concept development and vendor coordination to on-site management, 
+                     we focus on precision, creativity, and attention to detail.
+                     Our goal is to transform ideas into memorable experiences while ensuring 
+                     every event runs smoothly, efficiently, and within budget.
+                </p>
+            </div>
+            <div>
+                <img src="./images/about-img.jpg" alt="Event Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <p class="form-message" id="formMessage"></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p>© 2026 Elite Events. All Rights Reserved.</p>
+            <div class="social-links">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
